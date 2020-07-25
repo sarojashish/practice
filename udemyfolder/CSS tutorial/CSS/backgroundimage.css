@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    height: 100vh;
+    color: white;
+    border: 2px solid red;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.big-image {
+    background: url("../backgroundImage/bigimage.jpeg");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    background-repeat: space;
+    /* background-size: contain; */
+    background-position: center;
+    background-attachment: fixed;
+}
+.small-image {
+    background: url("../backgroundImage/small\ image.jpeg");
+    background-repeat: round;
+    background-attachment: fixed;
+}
+.phone-image {
+    background: linear-gradient(
+            rgba(0.5, 100.5, 0.5, 0.5),
+            rgba(100, 200, 280, 104.5)
+        ),
+        url("../backgroundImage/phoneimage.jpeg"),
+        center/contain space round fixed;
+}
+
+.lineargradient {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.one {
+    background: linear-gradient(to top, blue, green);
+}
+.two {
+    background: linear-gradient(blue, green, red, grey, orange);
+}
+
+.three {
+    background: linear-gradient(300deg, blue, green, red, grey, orange);
+}
+.four {
+    background: linear-gradient(to top right, blue, black, white, grey, orange);
+}
+.five {
+    background: linear-gradient(blue 20%, yellow 30%, black 40% orange 30%);
+}
+.six {
+    background: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.9));
+}

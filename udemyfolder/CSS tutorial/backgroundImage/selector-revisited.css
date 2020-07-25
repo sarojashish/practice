@@ -1,0 +1,294 @@
+/* * {
+    color: red;
+}
+#heading {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.heading {
+    color: red;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+p {
+    color: green;
+    letter-spacing: 5px;
+} */
+/* div h1 {
+    color: green;
+}
+div > h1 {
+    color: blue;
+}
+.heading h1 {
+    color: grey;
+}
+.heading > h1 {
+    color: red;
+}
+p::first-line {
+    font-weight: bold;
+}
+p::first-letter {
+    color: red;
+}
+a {
+    display: block;
+    background-color: yellowgreen;
+    margin: 10px;
+}
+a:link {
+    color: white;
+    background: red;
+}
+a:visited {
+    color: blue;
+} */
+/* div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one {
+    background: red;
+    transform: translateX(75px);
+}
+.two {
+    background: blue;
+    transform: translateY(40px);
+}
+.three {
+    background: green;
+    transform: translate(100px, 40px);
+} */
+/* div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one {
+    background: red;
+    transform: scaleX(2);
+}
+.two {
+    background: blue;
+    transform: scaleY(3);
+}
+.three {
+    background: green;
+    transform: scale(1, 5); */
+/* } */
+/* div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one {
+    background: red;
+    transform: skew(40deg);
+}
+.two {
+    background: blue;
+    transform: rotateX(80deg);
+}
+.three {
+    background: green;
+    transform: rotateZ(380deg);
+} */
+/* div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover {
+    background: coral;
+}
+.one {
+    background: red;
+}
+.two {
+    background: blue;
+}
+.three {
+    background: green;
+    transition-property: background, border-radius;
+    transition-duration: 4s 2s;
+    transition-delay: 2s;
+}
+.three:hover {
+    border-radius: 40%;
+} */
+
+/* div {
+    width: 300px;
+    height: 200px;
+    color: white;
+    background: blue;
+    margin: 5px;
+}
+.transition {
+    transition: all 2s linear;
+    background: blue;
+}
+.transition:hover {
+    background: yellow;
+    transform: translate(100px);
+    color: black;
+}
+.animation {
+    background: red;
+    animation: move 15s infinite;
+    width: 600px;
+}
+@keyframes move {
+    0% {
+        transform: translate(20px);
+        color: hotpink;
+        transition-timing-function: ease-in;
+    }
+    50% {
+        transform: translate(100px);
+        background: grey;
+        transition-timing-function: ease-out;
+    }
+    75% {
+        transform: translate(170px);
+        background: orange;
+        color: green;
+        transition-timing-function: ease-in-out;
+    }
+    100% {
+        transform: translate(700px);
+        background: pink;
+    }
+} */
+/* div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: white; */
+/* opacity: 0; */
+/* }
+.animation {
+    background: green;
+    animation: move 3s 3;
+    animation-fill-mode: backwards;
+}
+@keyframes move {
+    0% {
+        transform: translate(20px);
+        opacity: 0.1;
+    }
+    25% {
+        transform: translate(50px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translate(130px);
+        opacity: 0.5;
+    }
+    70% {
+        transform: translate(190px);
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+/* :root {
+    --primarycolor: #125031;
+    --cl-secondary: red;
+    --mainTransition: all 2s linear;
+    --mainspacing: 5px;
+}
+h1 {
+    color: var(--primarycolor);
+}
+h2 {
+    color: var(--primarycolor);
+}
+h3 {
+    color: var(--primarycolor);
+    transition: var(--mainTransition);
+}
+p {
+    letter-spacing: var(--mainspacing);
+    transition: var(--mainTransition);
+}
+h3:hover {
+    color: var(--cl-secondary);
+}
+p:hover {
+    color: var(--cl-secondary);
+}
+.fa-home {
+    font-size: 200px;
+    color: blue;
+}
+.social {
+    font-size: 200px;
+    color: red;
+    opacity: 0.5;
+    transition: all 5s linear;
+    animation: move 5s 5;
+}
+@keyframes move {
+    0% {
+        transform: translate(30px);
+    }
+    25% {
+        transform: translateX(60px);
+        color: #125031;
+        font-size: 3rem;
+    }
+    50% {
+        transform: translateX(90px);
+        color: rgb(2, 2, 2);
+        font-size: 6rem;
+    }
+    75% {
+        transform: translate(120px, 120px);
+        color: pink;
+        font-size: 4rem;
+    }
+} */
+/* h1 {
+    text-shadow: 10px 0px 0px red;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 20px;
+    box-shadow: 5px 9px 10px 50px green;
+    transition: all 5s 2;
+}
+.box:hover {
+    background: grey;
+    box-shadow: 10px 8px 7px 20px red;
+} */
+/* .navbar {
+    background: red;
+    font-size: 2rem;
+}
+.nav {
+    background: blue;
+    font-size: 2rem;
+} */
+/* img {
+    width: 100%;
+    display: block;
+    height: 600px;
+    object-fit: cover;
+}
+.one {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+.two {
+    width: 45%;
+    float: right;
+    margin-right: 5%;
+} */

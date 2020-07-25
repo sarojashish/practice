@@ -1,0 +1,134 @@
+/* body {
+    background: yellow;
+}
+.banner {
+    background: blue;
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+@media screen and (min-width: 576px) {
+    body {
+        background: red;
+    }
+    .banner {
+        background: yellow;
+    }
+    h1 {
+        color: black;
+        text-align: left;
+        font-size: 50px;
+    }
+} */
+/* @media screen and (min-width: 768px) {
+    body {
+        background: green;
+    }
+    .banner {
+        margin-top: 60px;
+        background: pink;
+    }
+} */
+/* @media screen and (max-width: 368px) {
+    body {
+        background: green;
+    }
+    .banner {
+        margin-top: 60px;
+        background: pink;
+    }
+} */
+/* img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+.banner {
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 50px solid green;
+    position: relative;
+}
+.one {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.two {
+    top: 10%;
+    left: 10%;
+}
+.three {
+    top: 20%;
+    left: 20%;
+} */
+/* p::before {
+    content: "hello there ";
+    display: block;
+    background: black;
+    font-weight: 100;
+    font-size: 2rem;
+    color: red;
+}
+p::after {
+    content: "after";
+    display: block;
+    background: black;
+    font-weight: bold;
+    font-size: 1rem;
+    color: blue;
+} */
+div {
+    width: 70vw;
+    margin: 100px auto;
+    border: 2px solid blue;
+    position: relative;
+}
+img {
+    width: 100%;
+    display: block;
+}
+div::before {
+    content: "hello there";
+    border: 2px solid grey;
+    display: block;
+    background: green;
+    color: red;
+    font: bold;
+    font-size: 2rem;
+    text-transform: capitalize;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    top: -100px;
+    left: -100px;
+    z-index: 2;
+    transition: all 2s linear;
+}
+div::after {
+    content: "";
+    border: 2px solid green;
+    /* display: block; */
+    background: blue;
+    color: red;
+    font: bold;
+    font-size: 1rem;
+    /* text-transform: capitalize; */
+    position: absolute;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    top: -10px;
+    left: -10px;
+    z-index: 1;
+}
+div:hover::before {
+    top: 0;
+    left: 0;
+    background: red;
+}
